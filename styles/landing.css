@@ -14,7 +14,7 @@ header {
 }
 
 h1 {
-  margin: 0.25em;
+  margin: 0.1em;
 }
 
 h4 {
@@ -37,8 +37,8 @@ a:hover {
 body {
   background-image: url("../pics/airport.jpeg");
   background-color: blue;
-  height: 1000px;
-  background-position: center;
+  height: 900px;
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -51,6 +51,7 @@ body {
   align-items: center;
   height: 100%;
   width: 100%;
+  padding-top: 3em;
 }
 
 .landing__link {
@@ -64,7 +65,8 @@ body {
 img {
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
-  height: 267px;
+  height: 100%;
+  width: 100%;
 }
 
 .link-container {
@@ -77,4 +79,6 @@ img {
   -webkit-box-shadow: 4px 4px 11px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 4px 4px 11px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 4px 4px 11px 0px rgba(0, 0, 0, 0.75);
+  width: 267;
+  height: 400px;
 }
